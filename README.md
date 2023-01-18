@@ -3,6 +3,10 @@ Test vue3, vuetify3, pixijs and context menu.
 
 Use composition API.
 
+I used code portions from pixijs demo here: https://pixijs.io/examples/#/demos-advanced/star-warp.js
+
+But I have manipulated a bit to match with my code structure in this project.
+
 ## project init
 
 ```

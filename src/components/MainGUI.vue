@@ -3,14 +3,6 @@
   <div class="connections" @contextmenu="onContextMenu($event)">
     <canvas id="pixi"></canvas>
   </div>
-  <div class="pixiBody">
-    <div class="buttons">
-      <button v-on:click="stop()">Stop</button>
-      <button v-on:click="start()">Start</button>
-      <button v-on:click="reset()">Reset</button>
-    </div>
-    <br/>
-  </div>
 
   <dialogForm
     :visible="showDialogForm"
